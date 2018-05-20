@@ -1,4 +1,4 @@
-.playlist-box {2  
+.playlist-box {
   display: flex;
   flex-wrap: wrap;
 }
@@ -9,5 +9,39 @@
 }
 
 .playlist-top {
-  height: 80px
+  height: 100px
+}
+
+
+#img1 {
+  background-image: url('https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: 174.22px 100px;
+}
+#img2 {
+  background-image: url('https://images.pexels.com/photos/589697/pexels-photo-589697.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-size: 174.22px 100px;
+}
+#img3 {
+  background-image: url('https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: 174.22px 100px;
+}
+#img4 {
+  background-image: url('https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: 174.22px 100px;
+}
+#img5 {
+  background-image: url('https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: 174.22px 100px;
+}
+#img6 {
+  background-image: url('https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: 174.22px 100px;
+}
+#img7 {
+  background-image: url('https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: 174.22px 100px;
+}
+#img8 {
+  background-image: url('https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: 174.22px 100px;
 }
