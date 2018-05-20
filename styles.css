@@ -1,0 +1,13 @@
+.playlist-box {2  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.playlist-inside {
+  margin: 4px;
+  border: 1px solid black;
+}
+
+.playlist-top {
+  height: 80px
+}
