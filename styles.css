@@ -1,47 +1,103 @@
+main {
+  background-color: rgb(221, 221, 221);
+}
+
+.admin {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .playlist-box {
   display: flex;
   flex-wrap: wrap;
 }
 
 .playlist-inside {
+  box-shadow: 3px 3px grey;
+  width: calc(100% * (1/4) - 10px - 1px);
   margin: 4px;
   border: 1px solid black;
 }
 
 .playlist-top {
-  height: 100px
+  height: 140px
 }
 
+.playlist-bottom {
+  padding: 5px 10px 5px 5px;
+  background-color: white;
+}
+
+.namehere {
+  font-family: times;
+  margin-bottom: 1px;
+}
+
+.middle-text {
+  font: arial;
+}
+
+.date-text {
+  margin-top: 1px;
+  font-size: 10px;
+}
+.top-bottom-text {
+  font-weight: 100;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+a {
+  display: flex;
+  color: black;
+  font-family: sans-serif;
+  font-size: 6px;
+  background-color: rgb(228, 228, 228);
+  padding: 5px 10px 5px 5px;
+  border: 1px solid white;
+  padding-left: 10px;
+}
+
+.attachments {
+  margin: 2px 0px 0px 0px;
+}
+
+.song-count {
+  margin: 2px 2px 15px 2px;
+  font-size: 30px;
+  color: rgb(160, 216, 247);
+}
 
 #img1 {
   background-image: url('https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  background-size: 174.22px 100px;
+  background-size: 300px 140px;
 }
+
 #img2 {
-  background-image: url('https://images.pexels.com/photos/589697/pexels-photo-589697.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-  background-size: 174.22px 100px;
+  background-image: url('https://images.pexels.com/photos/1019475/spring-pink-tulip-flower-1019475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350');
+  background-size: 300px 140px;
 }
 #img3 {
-  background-image: url('https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  background-size: 174.22px 100px;
+  background-image: url('https://images.pexels.com/photos/542401/pexels-photo-542401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350');
+  background-size: 300px 140px;
 }
 #img4 {
-  background-image: url('https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  background-size: 174.22px 100px;
+  background-image: url('https://images.pexels.com/photos/69498/pexels-photo-69498.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350');
+  background-size: 300px 140px;
 }
 #img5 {
-  background-image: url('https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  background-size: 174.22px 100px;
+  background-image: url('https://images.pexels.com/photos/52508/flowers-tulips-bouquet-cut-flowers-52508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350');
+  background-size: 300px 140px;
 }
 #img6 {
-  background-image: url('https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  background-size: 174.22px 100px;
+  background-image: url('https://images.pexels.com/photos/459488/pexels-photo-459488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350');
+  background-size: 300px 140px;
 }
 #img7 {
-  background-image: url('https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  background-size: 174.22px 100px;
+  background-image: url('https://images.pexels.com/photos/934041/pexels-photo-934041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350');
+  background-size: 300px 140px;
 }
 #img8 {
-  background-image: url('https://images.pexels.com/photos/159406/tulips-netherlands-flowers-bloom-159406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  background-size: 174.22px 100px;
+  background-image: url('https://images.pexels.com/photos/534667/pexels-photo-534667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350');
+  background-size: 300px 140px;
 }
