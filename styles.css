@@ -3,9 +3,50 @@ main {
 }
 
 .admin {
+  padding-top: 1em;
+  padding-right: 1em;
+  color: rgb(116, 180, 246);
   display: flex;
   justify-content: flex-end;
 }
+
+.nav-links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav {
+  background-color: rgb(66, 66, 66);
+  height: 130px;
+  margin: 0;
+  background-color: black;
+}
+
+#nav1 {
+  padding-left: 1em;
+  color: rgb(168, 170, 167);
+  padding-right: 30px;
+}
+
+#nav2 {
+  padding-left: 1em;
+  color: rgb(168, 170, 167);
+  padding-right: 30px;
+}
+
+#nav3 {
+  padding-left: 1em;
+  color: white;
+  padding-right: 30px;
+}
+
+#shares {
+  padding-top: 10px;
+  margin: 0px 0px 40px 0px;
+  font-size: 40px;
+  font-family: georgia;
+}
+
 
 .playlist-box {
   display: flex;
@@ -41,6 +82,7 @@ main {
   margin-top: 1px;
   font-size: 10px;
 }
+
 .top-bottom-text {
   font-weight: 100;
   font-size: 14px;
